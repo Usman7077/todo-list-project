@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Project</title>
+</head>
+<body>
+    <div class="heading">Todo List</div>
+    <div class="mainContainer">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebarProjectNames" id="sidebarProjectNames">
+                <div id="homeProject">Home</div>
+            </div>
+
+            <button class="addNewProjectButton" id="addNewProjectButton">New Project</button>
+        </div>
+        <div class="mainWindow" id="mainWindow">
+            <div id="content" class="content"></div>
+            <button id="addNewTaskButton" class="addNewTaskButton">+ Add Task</button>
+        </div>
+    </div>
+
+    <div class="formDiv">
+        <form action="" id="addTaskInputForm" style="display: none">
+            <label for="title">Title</label>
+            <input type="text" id="title"/>
+
+            <label for="description">Description</label>
+            <textarea name="des" id="description" cols="30" rows="10"></textarea>
+
+            <label for="dueDate">Due Date</label>
+            <input type="date" id="dueDate" />
+
+            <button id="addTaskInputFormButton" type="button">Add Task</button>
+        </form>
+
+        <form action="" id="editTaskInputForm" style="display: none">
+            <label for="title">Title</label>
+            <input type="text" id="title"/>
+
+            <label for="description">Description</label>
+            <textarea name="des" id="description" cols="30" rows="10"></textarea>
+
+            <label for="dueDate">Due Date</label>
+            <input type="date" id="dueDate" />
+
+            <button id="editTaskInputFormButton" type="button">Edit Task</button>
+        </form>
+
+        <form action="" id="newProjectInputForm" style="display: none">
+            <label for="projectNameInput">Project</label>
+            <input type="text" id="projectNameInput" />
+
+            <button id="newProjectInputFormButton" type="button">Add Project</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>Copyright © 2023 usmansiddique707</p>
+    </footer>
+
+    <script  src="../dist/bundle.js"></script>
+</body>

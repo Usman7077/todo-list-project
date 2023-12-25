@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    background-color: beige;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+    align-items: center;
+    height: 8vh;
+    margin: 0px;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+
+.mainContainer {
+    display: flex;
+    height: 87vh;
+    width: 99vw;
+}
+
+.sideBar {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border: 2px;
+    background-color: #b0bb0b29;
+}
+
+.sidebarProjectNames>div {
+    padding: 10px;
+}
+
+.mainWindow {
+    display: flex;
+    flex-direction: column;
+    width: 81vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    overflow: auto;
+    border: #e91616;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.addNewTaskButton {
+    color: red;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+#addTaskInputForm {
+    /* display: flex; */
+    padding: 32px;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(203 197 195);
+    left: 37vw;
+    top: 23vh;
+}
+#editTaskInputForm {
+    /* display: flex; */
+    padding: 32px;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(203 197 195);
+    left: 37vw;
+    top: 23vh;
+}
+
+#newProjectInputForm {
+    /* display: flex; */
+    padding: 32px;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(203 197 195);
+    left: 37vw;
+    top: 23vh;
+}
+
+.addTodoDivContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 44px;
+    border: 2px;
+    border-style: dotted;
+}
+
+.inputForm {
+    display: flex;
+    margin: 20px;
+}
+
+.formDiv {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 5vh;
+}
